@@ -10,9 +10,9 @@
 		D88FF0C2205C692800821995 /* RecruitmentToolFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88FF0B8205C692800821995 /* RecruitmentToolFramework.framework */; };
 		D88FF0C7205C692800821995 /* RecruitmentToolFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88FF0C6205C692800821995 /* RecruitmentToolFrameworkTests.swift */; };
 		D88FF0C9205C692800821995 /* RecruitmentToolFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D88FF0BB205C692800821995 /* RecruitmentToolFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D88FF0DC205C6C0A00821995 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88FF0D3205C6B0000821995 /* ObjectMapper.framework */; };
-		D88FF0DD205C6C0A00821995 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88FF0D4205C6B0000821995 /* SwiftyJSON.framework */; };
 		D88FF0E0205C6C3C00821995 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88FF0DF205C6C3C00821995 /* Models.swift */; };
+		D88FF10F205C777B00821995 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88FF110205C777B00821995 /* ObjectMapper.framework */; };
+		D88FF111205C778000821995 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88FF112205C778000821995 /* SwiftyJSON.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,9 @@
 		D88FF0D9205C6B5700821995 /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88FF0DA205C6B5700821995 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88FF0DF205C6C3C00821995 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		D88FF10E205C776700821995 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88FF110205C777B00821995 /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88FF112205C778000821995 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D88FF0DC205C6C0A00821995 /* ObjectMapper.framework in Frameworks */,
-				D88FF0DD205C6C0A00821995 /* SwiftyJSON.framework in Frameworks */,
+				D88FF111205C778000821995 /* SwiftyJSON.framework in Frameworks */,
+				D88FF10F205C777B00821995 /* ObjectMapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +104,9 @@
 		D88FF0D2205C6B0000821995 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D88FF112205C778000821995 /* SwiftyJSON.framework */,
+				D88FF110205C777B00821995 /* ObjectMapper.framework */,
+				D88FF10E205C776700821995 /* SwiftyJSON.framework */,
 				D88FF0D9205C6B5700821995 /* ObjectMapper.framework */,
 				D88FF0DA205C6B5700821995 /* SwiftyJSON.framework */,
 				D88FF0D3205C6B0000821995 /* ObjectMapper.framework */,
