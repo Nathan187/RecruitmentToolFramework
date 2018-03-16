@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0920"
+   LastUpgradeVersion = "0900"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,16 +14,30 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D88FF0B7205C692800821995"
-               BuildableName = "RecruitmentToolFramework.framework"
-               BlueprintName = "RecruitmentToolFramework"
-               ReferencedContainer = "container:RecruitmentToolFramework.xcodeproj">
+               BlueprintIdentifier = "6AAC8F7519F03C2900E7A677"
+               BuildableName = "ObjectMapper.framework"
+               BlueprintName = "ObjectMapper-iOS"
+               ReferencedContainer = "container:ObjectMapper.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6AAC8F8019F03C2900E7A677"
+               BuildableName = "ObjectMapper-iOSTests.xctest"
+               BlueprintName = "ObjectMapper-iOSTests"
+               ReferencedContainer = "container:ObjectMapper.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       language = ""
@@ -33,27 +47,27 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D88FF0C0205C692800821995"
-               BuildableName = "RecruitmentToolFrameworkTests.xctest"
-               BlueprintName = "RecruitmentToolFrameworkTests"
-               ReferencedContainer = "container:RecruitmentToolFramework.xcodeproj">
+               BlueprintIdentifier = "6AAC8F8019F03C2900E7A677"
+               BuildableName = "ObjectMapper-iOSTests.xctest"
+               BlueprintName = "ObjectMapper-iOSTests"
+               ReferencedContainer = "container:ObjectMapper.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D88FF0B7205C692800821995"
-            BuildableName = "RecruitmentToolFramework.framework"
-            BlueprintName = "RecruitmentToolFramework"
-            ReferencedContainer = "container:RecruitmentToolFramework.xcodeproj">
+            BlueprintIdentifier = "6AAC8F7519F03C2900E7A677"
+            BuildableName = "ObjectMapper.framework"
+            BlueprintName = "ObjectMapper-iOS"
+            ReferencedContainer = "container:ObjectMapper.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       language = ""
@@ -66,10 +80,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D88FF0B7205C692800821995"
-            BuildableName = "RecruitmentToolFramework.framework"
-            BlueprintName = "RecruitmentToolFramework"
-            ReferencedContainer = "container:RecruitmentToolFramework.xcodeproj">
+            BlueprintIdentifier = "6AAC8F7519F03C2900E7A677"
+            BuildableName = "ObjectMapper.framework"
+            BlueprintName = "ObjectMapper-iOS"
+            ReferencedContainer = "container:ObjectMapper.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -84,10 +98,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D88FF0B7205C692800821995"
-            BuildableName = "RecruitmentToolFramework.framework"
-            BlueprintName = "RecruitmentToolFramework"
-            ReferencedContainer = "container:RecruitmentToolFramework.xcodeproj">
+            BlueprintIdentifier = "6AAC8F7519F03C2900E7A677"
+            BuildableName = "ObjectMapper.framework"
+            BlueprintName = "ObjectMapper-iOS"
+            ReferencedContainer = "container:ObjectMapper.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
